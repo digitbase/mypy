@@ -75,3 +75,13 @@ print(123, end='') # 取消换行
 #   % 取余 
 pr(9//2)
 pr(9%2)
+
+
+#数据类型： int float str bool compile
+#结构类型：  nlist tuple set dict
+
+a = 123.123
+pr(type(a))
+pr(type(str(a)))
+pr(type(float(a)))
+pr(a)
