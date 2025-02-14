@@ -85,3 +85,18 @@ pr(type(a))
 pr(type(str(a)))
 pr(type(float(a)))
 pr(a)
+
+
+# [起始： 结束： 步长]
+name = 'abcdefghijklmnopqrstuvwxyzABCDEFGH'
+pr(name[6:20:2])
+
+
+# find 字符串序列.find(str, beg=0, end=len(string)
+pr(name.find('a'))
+
+#index count replace split
+
+pr(name.index('a'))
+pr(name.count('a'))
+pr(name.replace('a', 'b', 1))
