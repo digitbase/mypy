@@ -67,3 +67,11 @@ print('Pi to 2 decimal places: %d' % pi)  # 输出: Pi to 2 decimal places: 3
 print(oct(10))
 print("%o " % 9) #八进制
 print("%X " % 12) #十六进制
+
+print(123, end='') # 取消换行
+
+
+#   // 取整除
+#   % 取余 
+pr(9//2)
+pr(9%2)
