@@ -1,0 +1,39 @@
+# Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# virtualenv
+venv/
+env/
+ENV/
+.venv/
+data/
+
+# IDEs and editors
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Log files
+*.log
+
+# Python egg and distribution files
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
